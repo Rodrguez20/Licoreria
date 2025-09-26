@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7pIO8oOH6b4=",
+  "dgSpecHash": "virZBIymulM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

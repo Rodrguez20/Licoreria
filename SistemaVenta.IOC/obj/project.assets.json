@@ -6914,11 +6914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+      "projectUniqueName": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
       "projectName": "SistemaVenta.IOC",
-      "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+      "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
       "packagesPath": "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.IOC\\obj\\",
+      "outputPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6940,11 +6940,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
-              "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+            "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+              "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
             },
-            "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-              "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+            "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+              "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
             }
           }
         }

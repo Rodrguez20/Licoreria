@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YMjIVYI0YBk=",
+  "dgSpecHash": "2UXrPQKN1PA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj",
+  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

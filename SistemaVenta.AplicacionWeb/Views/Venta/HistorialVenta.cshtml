@@ -8,7 +8,85 @@
     =ESTILOS PARA ESTA PAGINA
     ===============================================================-->
     <link href="~/vendor/jquery-ui/jquery-ui.css" rel="stylesheet">
+
+    <style>
+        /* Cards modernos */
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+            }
+
+        /* Header con gradiente */
+        .card-header.bg-second-primary {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        /* Inputs modernos */
+        .form-control {
+            border-radius: 0.5rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+            .form-control:focus {
+                border-color: #2193b0;
+                box-shadow: 0 0 8px rgba(33,147,176,0.3);
+            }
+
+        /* Tablas */
+        table {
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+            table tbody tr:hover {
+                background-color: rgba(33,147,176,0.08);
+            }
+
+        /* Botones */
+        .btn-success, .btn-primary, .btn-danger {
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+            .btn-success:hover {
+                background: #28a745cc;
+                transform: translateY(-2px);
+            }
+
+            .btn-primary:hover {
+                background: #007bffcc;
+                transform: translateY(-2px);
+            }
+
+            .btn-danger:hover {
+                background: #dc3545cc;
+                transform: translateY(-2px);
+            }
+
+        /* Inputs deshabilitados */
+        .form-control[disabled] {
+            background-color: #f9f9f9;
+            color: #555;
+        }
+
+        /* Datepicker */
+        .ui-datepicker {
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            font-size: 0.9rem;
+        }
+    </style>
 }
+
 
 <div class="card shadow mb-4">
     <div class="card-header py-3 bg-second-primary">

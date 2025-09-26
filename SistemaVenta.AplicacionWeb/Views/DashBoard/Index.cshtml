@@ -3,6 +3,66 @@
     ViewData["Title"] = "DashBoard";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@section Estilos {
+    <style>
+        /* ============================
+                Estilos Generales de Tarjetas
+                ============================ */
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+            }
+
+        /* Cabeceras de tarjetas */
+        .card-header {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        /* Iconos en tarjetas de resumen */
+        .card .fa-shopping-basket,
+        .card .fa-dollar-sign,
+        .card .fa-clipboard-list,
+        .card .fa-tags {
+            color: #17a673;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .card:hover .fa-shopping-basket,
+        .card:hover .fa-dollar-sign,
+        .card:hover .fa-clipboard-list,
+        .card:hover .fa-tags {
+            transform: scale(1.2);
+            color: #20c997;
+        }
+
+        /* Textos */
+        .text-gray-800 {
+            font-weight: 600;
+        }
+
+        /* Gráficos */
+        .chart-area, .chart-pie {
+            border-radius: 1rem;
+            background: linear-gradient(145deg, #f8f9fc, #e9ecef);
+            padding: 1rem;
+            box-shadow: inset 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .chart-area, .chart-pie
+        {
+            height: 300px !important;
+        }
+        </style>
+}
+
 
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">

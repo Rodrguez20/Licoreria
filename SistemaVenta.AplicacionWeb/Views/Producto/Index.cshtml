@@ -11,7 +11,77 @@
     <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/responsive.dataTables.min.css">
     <link rel="stylesheet" href="~/vendor/datatables/extensiones/css/buttons.dataTables.min.css">
 
+    <style>
+        /* Card moderno con sombra y bordes redondeados */
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+            }
+
+        /* Header de la card con gradiente */
+        .card-header.bg-second-primary {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        /* Botones modernos */
+        .btn-success, .btn-primary, .btn-danger {
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+            .btn-success:hover {
+                background: #28a745cc;
+                transform: translateY(-2px);
+            }
+
+            .btn-primary:hover {
+                background: #2193b0cc;
+                transform: translateY(-2px);
+            }
+
+            .btn-danger:hover {
+                background: #dc3545cc;
+                transform: translateY(-2px);
+            }
+
+        /* Inputs y selects modernos */
+        .form-control, .form-control-sm, select.form-control-sm, .form-control-file {
+            border-radius: 0.5rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+            .form-control:focus, .form-control-sm:focus, select.form-control-sm:focus, .form-control-file:focus {
+                border-color: #2193b0;
+                box-shadow: 0 0 8px rgba(33,147,176,0.4);
+            }
+
+        /* Tabla con efecto hover */
+        table.dataTable tbody tr:hover {
+            background-color: rgba(33,147,176,0.1);
+        }
+
+        /* Imagen producto */
+        #imgProducto {
+            border-radius: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Scroll horizontal para responsive */
+        div.dataTables_wrapper {
+            overflow-x: auto;
+        }
+    </style>
 }
+
 
 <!-- DataTales Example -->
 <div class="card shadow mb-4">

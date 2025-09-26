@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {}
+    "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
+    "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
         "projectName": "SistemaVenta.Entity",
-        "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+        "projectPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
         "packagesPath": "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

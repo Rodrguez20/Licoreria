@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HDWeUnYKpZg=",
+  "dgSpecHash": "ZEwHRsDmq+8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

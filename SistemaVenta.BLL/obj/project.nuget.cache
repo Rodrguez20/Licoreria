@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tzcCV5smKV0=",
+  "dgSpecHash": "P6swxhzd6rQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\POSLicoreria-main\\POSLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+  "projectFilePath": "C:\\Users\\Calixto Rodriguez\\Downloads\\SistemaVentaLicoreria-main\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\Calixto Rodriguez\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",

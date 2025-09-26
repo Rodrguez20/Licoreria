@@ -22,6 +22,67 @@
     <!-- Custom styles for this template-->
     <link href="~/css/sb-admin-2.css" rel="stylesheet">
 
+    <style>
+        /* Fondo moderno con gradiente suave */
+        body.bg-gradient-info {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+        }
+
+        /* Tarjeta con flow y sombra sutil */
+        .card {
+            border-radius: 1.25rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            }
+        /* Inputs más suaves y con flow */
+        .form-control-user {
+            border-radius: 50px;
+            padding: 0.75rem 1rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+            .form-control-user:focus {
+                border-color: #2193b0;
+                box-shadow: 0 0 8px rgba(33, 147, 176, 0.4);
+            }
+
+        /* Botón moderno y con transición */
+        .btn-user {
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+            .btn-user:hover {
+                background: #6dd5ed;
+                transform: translateY(-2px);
+            }
+
+        /* Encabezado con flow */
+        .text-center h1.h4 {
+            font-weight: 700;
+            color: #1b1b1b;
+        }
+
+        /* Enlaces más vivos */
+        a.small {
+            color: #2193b0;
+        }
+
+            a.small:hover {
+                text-decoration: underline;
+            }
+
+        /* Alertas con bordes suaves */
+        .alert {
+            border-radius: 0.75rem;
+        }
+    </style>
 </head>
 
 <body class="bg-gradient-info">
@@ -59,16 +120,16 @@
 
                                         @if (ViewData["Mensaje"] != null)
                                         {
-                                                <div class="form-group">
-                                                    <div class="alert alert-danger" role="alert">
-                                                        @ViewData["Mensaje"]
-                                                    </div>
+                                            <div class="form-group">
+                                                <div class="alert alert-danger" role="alert">
+                                                    @ViewData["Mensaje"]
                                                 </div>
+                                            </div>
                                         }
-                                        
+
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Ingresar
-                                        </button> 
+                                        </button>
                                     </form>
                                     <hr>
                                     <div class="text-center">
@@ -85,8 +146,5 @@
         </div>
 
     </div>
-
-
 </body>
-
 </html>

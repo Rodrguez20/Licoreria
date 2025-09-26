@@ -10,11 +10,75 @@
     <link href="~/vendor/select2/select2.min.css" rel="stylesheet">
 
     <style>
-        .select2{
+        .select2 {
             width: 100% !important;
+        }
+
+        /* Card moderno con sombra y bordes redondeados */
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+            }
+
+        /* Header de la card con gradiente */
+        .card-header.bg-second-primary {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        /* Inputs y selects modernos */
+        .form-control, .custom-select {
+            border-radius: 0.5rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+            .form-control:focus, .custom-select:focus {
+                border-color: #2193b0;
+                box-shadow: 0 0 8px rgba(33,147,176,0.3);
+            }
+
+        /* Tabla productos */
+        #tbProducto {
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+            #tbProducto tbody tr:hover {
+                background-color: rgba(33,147,176,0.08);
+            }
+
+        /* Botón Terminar Venta */
+        #btnTerminarVenta {
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+            #btnTerminarVenta:hover {
+                background: #28a745cc;
+                transform: translateY(-2px);
+            }
+
+        /* Input group moderno */
+        .input-group-text {
+            background-color: #f1f1f1;
+            border-radius: 0.5rem 0 0 0.5rem;
+        }
+
+        .form-control[disabled] {
+            background-color: #f9f9f9;
+            color: #555;
         }
     </style>
 }
+
 
 <div class="row">
     <div class="col-sm-8">
