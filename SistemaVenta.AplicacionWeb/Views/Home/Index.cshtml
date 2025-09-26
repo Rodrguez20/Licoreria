@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<div class="welcome-card">
+    <h1>¡Bienvenido/a  @ViewData["nombreUsuario"], nos agrada tenerte de vuelta </h1>
+    <p>Comienza con entusiasmo, cada acción cuenta y cada logro te acerca más a tus metas. ¡Aprovecha el día al máximo!</p>
+    <br />
+    <p>¡Hoy es un gran día para lograr tus objetivos! Organiza tus tareas, aprovecha al máximo tu tiempo y disfruta del proceso mientras alcanzas el éxito.</p>
+   
+</div>
+
+<style>
+    /* Contenedor principal */
+    .welcome-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        padding: 2.5rem 2rem;
+        border-radius: 1.5rem;
+        text-align: center;
+        max-width: 800px;
+        margin: 50px auto;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+        animation: fadeIn 1s ease-out;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        /* Título */
+        .welcome-card h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #000000;
+            text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff;
+            animation: slideDown 1s ease-out;
+        }
+
+        /* Texto de bienvenida */
+        .welcome-card p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #000000;
+        }
+
+        /* Botón principal */
+        .welcome-card .btn-primary {
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            border: none;
+            padding: 0.8rem 2rem;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+        }
+
+            .welcome-card .btn-primary:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px #00c6ff;
+            }
+
+    }
+
+    /* Fondo general de la página */
+    /* body { */
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    }
+</style>

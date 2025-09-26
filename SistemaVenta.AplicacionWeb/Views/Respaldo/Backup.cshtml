@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Respaldo de Base de Datos";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4 class="mb-0">
+                        <i class="bi bi-hdd-stack"></i> Respaldo de la Base de Datos
+                    </h4>
+                </div>
+
+                <div class="card-body">
+
+                    <!-- Mensajes de éxito o error -->
+                    @if (TempData["Success"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="bi bi-check-circle-fill"></i> @TempData["Success"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <i class="bi bi-exclamation-triangle-fill"></i> @TempData["Error"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <p class="text-muted mb-4">
+                        El respaldo se guardará automáticamente en la carpeta
+                        <strong class="text-dark">/Backups</strong>.
+                    </p>
+
+                    <form asp-action="BackupPost" method="post" class="text-center">
+                        <button type="submit" class="btn btn-lg btn-success px-4">
+                            <i class="bi bi-cloud-download-fill"></i> Crear respaldo
+                        </button>
+                    </form>
+                </div>
+
+                <div class="card-footer text-muted text-center">
+                    <small>Última acción realizada el: @DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

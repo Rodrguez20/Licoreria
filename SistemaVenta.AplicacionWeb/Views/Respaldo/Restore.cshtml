@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Restauración de Base de Datos";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-danger text-white text-center">
+                    <h4 class="mb-0">
+                        <i class="bi bi-arrow-counterclockwise"></i> Restauración de la Base de Datos
+                    </h4>
+                </div>
+
+                <div class="card-body">
+
+                    <!-- Mensajes de éxito o error -->
+                    @if (TempData["Success"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="bi bi-check-circle-fill"></i> @TempData["Success"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <i class="bi bi-exclamation-triangle-fill"></i> @TempData["Error"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <p class="text-muted mb-4">
+                        Selecciona un archivo de respaldo con extensión
+                        <strong class="text-dark">.bak</strong> para restaurar la base de datos.
+                    </p>
+
+                    <form asp-action="RestorePost" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="backupFile" class="form-label">
+                                <i class="bi bi-file-earmark-zip-fill"></i> Archivo de respaldo
+                            </label>
+                            <input type="file" name="backupFile" id="backupFile"
+                                   class="form-control" accept=".bak" required />
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-lg btn-danger px-4">
+                                <i class="bi bi-arrow-repeat"></i> Restaurar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="card-footer text-muted text-center">
+                    <small>Recuerda que la restauración sobrescribirá la base de datos actual.</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
