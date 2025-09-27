@@ -6451,7 +6451,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4e73df !important;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9946,7 +9946,7 @@ a:focus {
 } */
 
 .bg-gradient-primary {
-    background-color: #4e73df;
+    background: linear-gradient(#2170b0, #2193b0);
     background-size: cover;
 }
 
