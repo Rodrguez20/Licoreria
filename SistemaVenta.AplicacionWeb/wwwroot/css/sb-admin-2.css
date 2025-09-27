@@ -9946,12 +9946,12 @@ a:focus {
 } */
 
 .bg-gradient-primary {
-  background-color: #004A93;
-  background-size: cover;
+    background-color: #4e73df;
+    background-size: cover;
 }
 
-.bg-second-primary{
-  background-color: #004A93 !important;
+.bg-second-primary {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0) !important;
 }
 
 
